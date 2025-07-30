@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shristi Rijal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav_content">
+        <div class="name">SR</div>
+        <ul class="nav_list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="section home">
+      <div id="particles-js"></div>
+      <div class="items">
+        <h1>Shristi Rijal</h1>
+        <h2>Cybersecurity | Networking | Web Development</h2>
+        <p>
+          Student with a strong interest in web development, ethical hacking,
+          and database management, committed to building secure, user-friendly,
+          and efficient digital solutions while continuously expanding technical
+          skills and knowledge.
+        </p>
+        <a href="#contact" class="contact-btn">Contact Me</a>
+      </div>
+    </section>
+    <section id="about" class="section about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-bio">
+          <p>
+            Hello! I'm Shristi, passionate about cybersecurity, networking, and
+            web development. I love solving problems and building secure,
+            efficient digital solutions. My journey is driven by curiosity and a
+            desire to make technology safer and more accessible for everyone.
+          </p>
+        </div>
+        <div class="about-skills">
+          <h3>Skills</h3>
+          <ul class="skills-list">
+            <li>
+              <span>Web Development</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%"></div>
+              </div>
+            </li>
+            <li>
+              <span>Cybersecurity</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 75%"></div>
+              </div>
+            </li>
+            <li>
+              <span>Networking</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 70%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="gallery" class="section gallery">
+      <h2>Project Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+        <img src="images/image1.jpg" alt="Project 1" />
+          <h3>Project Title</h3>
+          <p>Premier destination for quality makeup products with modern design and user-friendly interface</p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="gallery-item">
+          <img src="images/image2.jpg" alt="Project 2" />
+          <h3>Project Title</h3>
+          <p>E-commerce platform with secure checkout and responsive design.</p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="gallery-item">
+          <img src="images/image3.jpg" alt="Project 3" />
+          <h3>Project Title</h3>
+          <p>Interactive portfolio website with smooth animations and modern design</p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form" autocomplete="off">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="contact-btn">Send Message</button>
+        <div id="form-status"></div>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2024 Shristi Rijal. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
